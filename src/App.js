@@ -1,4 +1,5 @@
-import Expenses from "./components/Expenses";
+import SignIn from "./Auth/SignIn";
+// import Expenses from "./components/Expenses";
 function App() {
   const expenses = [
     {
@@ -24,7 +25,8 @@ function App() {
 
   return (
     <main className="dark text-foreground bg-background">
-      <Expenses items={expenses} />
+      {/* <Expenses items={expenses} /> */}
+      <SignIn />
     </main>
   );
 }
